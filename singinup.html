@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        iframe {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            border: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .top {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+
 </head>
 <body>
-    <h1>Please sign in/up (trust me)</h1>
-    <div id="api"></div>
+    <iframe src="https://www.youtube.com/embed/zuZHg6kdq2o?si=iKZlWXJSsItYsNDe&autoplay=1" allow="autoplay" title="YouTube video player"></iframe>
+    <div class="top">
+        <div id="api"></div>
+    </div>
 </body>
 </html>
