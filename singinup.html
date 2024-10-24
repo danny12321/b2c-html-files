@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .center {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-image: url('https://warmtenetwerk.nl/wp-content/uploads/logo_fudura_RGB-e1543493184799-720x360.png');
+            background-size: 500;
+            background-repeat: no-repeat;
+            /* background-position: center; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        label {
+            display: block;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+
 </head>
 <body>
-    <h1>Please sign in/up (trust me)</h1>
-    <div id="api"></div>
+    <div class="center">
+        <div id="api">
+        </div>
+    </div>
 </body>
 </html>
